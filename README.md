@@ -22,5 +22,6 @@ Responsiveness: Added a media query so the navigation menu stacks correctly on a
 
 Link to live site:(https://opm92805.github.io/All-About-Yoga/)
 
-Code: [Insert your GitHub repository link here]
+Code: (https://github.com/opm92805/All-About-Yoga)
+
 
