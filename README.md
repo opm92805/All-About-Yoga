@@ -20,6 +20,7 @@ Multimedia: Embedded a YouTube video at the bottom of the Poses page for a guide
 
 Responsiveness: Added a media query so the navigation menu stacks correctly on a phone screen.
 
-Links: * Live Site: [Insert your UVM or GitHub link here]
+Link to live site:(https://opm92805.github.io/All-About-Yoga/)
 
 Code: [Insert your GitHub repository link here]
+
