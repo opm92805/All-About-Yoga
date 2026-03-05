@@ -1,0 +1,116 @@
+/* --- 1. BASIC SETUP --- */
+body {
+    background-color: #f0f4f0; /* Soft Sage Green background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* --- 2. HEADER & NAV (Flexbox Requirement) --- */
+header {
+    background-color: #2d4c2d; /* Deep Forest Green */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex; /* FLEXBOX */
+    justify-content: center;
+    background-color: #3e5c3e;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #4f6f4f; /* Subtle change when hovering */
+}
+
+/* --- 3. MAIN CONTENT BOX --- */
+main {
+    max-width: 850px;
+    margin: 30px auto; /* Centers the box */
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px; /* Rounds the corners slightly */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1); /* Adds a soft shadow */
+}
+
+h2, h3 {
+    color: #2d4c2d;
+    border-bottom: 2px solid #e0eee0;
+    padding-bottom: 10px;
+}
+
+/* --- 4. TABLES (Organized & Clean) --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th {
+    background-color: #f8faf8;
+    color: #2d4c2d;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* --- 5. IMAGES & VIDEO (Multimedia) --- */
+img {
+    border-radius: 8px;
+    max-width: 100%; /* Prevents images from breaking the layout */
+    height: auto;
+}
+
+/* Styling the YouTube Video */
+iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Keeps the video rectangle-shaped */
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* --- 6. FOOTER --- */
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* --- 7. MOBILE RESPONSIVENESS (Media Query) --- */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Stacks links on top of each other */
+        text-align: center;
+    }
+    
+    main {
+        width: 90%;
+        padding: 20px;
+    }
+}
